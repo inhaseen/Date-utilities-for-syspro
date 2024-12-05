@@ -11,7 +11,7 @@ int main() {
     char *error;
 
     // Load dynamic libraries
-    handle = dlopen("./libdateutilities.so", RTLD_LAZY);
+    handle = dlopen("./libdate.so", RTLD_LAZY);
     if (!handle) {
         fprintf(stderr, "Error opening library: %s\n", dlerror());
         return 1;
