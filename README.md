@@ -3,7 +3,7 @@
 # 날짜 유틸리티 라이브러리
 
 ## 라이브러리 설명
-리눅스 시스템에서 사용할 수 있는 날짜 처리 유틸리티입니다. 날짜 포맷팅, 날짜 유효성 검사 및 조작 기능을 제공합니다.
+리눅스 시스템에서 사용할 수 있는 날짜 처리 유틸리티입니다. 날짜 포맷팅, 날짜 유효성 검사 및 조작 기능을 제공합니다.  
 -shared_lib 디렉토리에는 dynamic linking으로 구현된 shared library (.so) 파일
 -static_lib 디렉토리에는 static library (.a) 파일이 있습니다.
 
@@ -70,6 +70,7 @@ gcc -o test_dynamic test_date.c -ldl
 ```
 
 ## 사용 예시 (테스트 프로그램)
+### 샘플 코드
 ![Program code](./examplecode.png)
-
+### 샘플 출력
 ![Output](./exampleoutput.png)
