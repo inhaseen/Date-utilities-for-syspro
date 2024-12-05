@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <dlfcn.h>
-#include "date_utilities.h" // 구조체 정의를 위해 필요
+#include "date_utilities.h"
 
 int main() {
     void *handle;
